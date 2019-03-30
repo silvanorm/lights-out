@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+}
+
+.board {
+  width: 900px;
+  margin: auto;
+  /* background-color: white; */
+}
+
+.light {
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+  background-color: #2a2a2a;
+  border: 2px solid #4a4a4a;
+}
+
+.on {
+  background-color: #9ba300;
+  border: 2px solid #b8c107;
+}
