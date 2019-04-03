@@ -2,10 +2,32 @@ body {
   background-color: black;
 }
 
-.board {
-  width: 900px;
+.title {
+  width: 820px;
+  height: 50px;
   margin: auto;
-  /* background-color: white; */
+  border: 2px solid gray;
+}
+
+.level {
+  color: #fff;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+}
+
+button {
+  float: right;
+  margin: 5px;
+  margin-left: 1px;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+}
+
+.board {
+  width: 820px;
+  margin: auto;
+  border: 2px solid gray;
 }
 
 .light {
@@ -15,9 +37,11 @@ body {
   margin: 5px;
   background-color: #2a2a2a;
   border: 2px solid #4a4a4a;
+  transition: all 0.5s ease-in-out;
 }
 
 .on {
   background-color: #9ba300;
   border: 2px solid #b8c107;
+  transition: all 0.5s ease-in-out;
 }
